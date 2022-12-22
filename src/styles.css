@@ -1,0 +1,59 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: lightgoldenrodyellow;
+
+  
+  
+}
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+.quote{
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  min-height: 180px;
+  padding: 30px;
+  background: darkslategray;
+  border-radius: 4px;
+  box-shadow: 6px 6px 9px rgba(0,0,0,0.5);
+  diplay: flex;
+  flex-direction: column;
+}
+p {
+  color: orange;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+p:last-of-type{
+  margin: 10px 0;
+}
+button{
+  border: none;
+  outline: none;
+  margin-right: 12px;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn{
+  background: lightskyblue;
+  color: #fff;
+  width: 80px;
+  padding: 7px 0;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 700ms ease-in-out;
+}
+
+.btn:hover {
+  background: #5a57ec;
+}
+
